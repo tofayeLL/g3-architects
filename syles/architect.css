@@ -43,7 +43,7 @@ button {
 }
 h1{
     color: #131313;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -95,4 +95,67 @@ nav a {
 
 .banner .banner-img img {
     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for small devices */
+
+@media screen and (max-width: 576px) {
+    /* container */
+    .container{
+        width: 95%;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    /* shared styles */
+    nav{
+        flex-direction: column;
+    }
+
+
+    /* header related responsive */
+
+    .banner-text{
+        max-width: 100%;
+    }
+     
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    
+}
+
+
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+/* header related responsive */
+    .banner-text{
+        max-width: 100%;
+    }
+
+    
 }
