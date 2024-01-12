@@ -25,6 +25,13 @@ h3 {
     /* border: 1px solid red; */
 }
 
+h4 {
+    color: #131313;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
 p {
     color: #727272;
     font-size: 12px;
@@ -41,14 +48,15 @@ button {
     background: #FF900E;
     border: none;
 }
-h1{
+
+h1 {
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
 }
 
 /* main related styles */
-main section{
+main section {
     margin-top: 150px;
 }
 
@@ -94,7 +102,8 @@ nav a {
     max-width: 65%;
     margin: 0 auto;
 }
-.banner *{
+
+.banner * {
     margin-bottom: 1.8rem;
 }
 
@@ -106,7 +115,7 @@ nav a {
 
 /* Team section related styles */
 
-.team{
+.team {
     display: flex;
     gap: 55px;
     justify-content: space-around;
@@ -118,21 +127,87 @@ nav a {
 .team .image-grid {
     display: grid;
     gap: 18px;
-    grid-template-columns: repeat(2,1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
+
 }
-.team .image-grid img{
+
+.team .image-grid img {
     width: 100%;
 }
 
-.team .text{
+.team .text {
     max-width: 40%;
 }
-.team .text span{
+
+.team .text span {
     color: #FF900E;
 }
-.team .text *{
+
+.team .text * {
     margin-bottom: 1.25rem;
+}
+
+
+
+/* featured section related styes */
+
+.features {
+    display: flex;
+    gap: 100px;
+}
+
+.features .text-section {
+    max-width: 40%;
+   
+}
+
+.features .text-section * {
+    margin-bottom: 1.2rem;
+}
+
+.features .text-section #text {
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.features .text-section .text-item {
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+}
+
+.features .text-section .text-item * {
+    margin-bottom: 0.5rem;
+}
+
+
+/* img container */
+.features .img-section img {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.features .img-section .bedge{
+    max-width: 50%;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background: #FF900E; 
+    position: relative; 
+    bottom: 10%;
+    right: 15%;
+}
+.features .img-section .bedge h4{
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 700;
+}
+.features .img-section .bedge p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -159,8 +234,9 @@ nav a {
 /* responsive for small devices */
 
 @media screen and (max-width: 576px) {
+
     /* container */
-    .container{
+    .container {
         width: 95%;
         margin: 0px auto;
         padding: 10px;
@@ -168,28 +244,28 @@ nav a {
 
     /* shared styles */
     nav,
-    .team{
+    .team {
         flex-direction: column;
     }
 
     .team .image-grid {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .banner-text,
-    .team .text{
+    .team .text {
         max-width: 100%;
     }
 
-    
+
 
 
     /* header related responsive */
-    h1{
+    h1 {
         font-size: 1.5rem;
     }
-    
-    
+
+
 }
 
 
@@ -197,17 +273,17 @@ nav a {
 /* responsive for medium devices */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-    .team{
+    .team {
         flex-direction: column;
     }
 
 
     .banner-text,
-    .team .text{
+    .team .text {
         max-width: 100%;
     }
 
-   
 
-    
+
+
 }
