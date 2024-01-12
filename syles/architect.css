@@ -167,17 +167,24 @@ nav a {
     }
 
     /* shared styles */
-    nav{
+    nav,
+    .team{
         flex-direction: column;
     }
 
+    .team .image-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
 
-    /* header related responsive */
-
-    .banner-text{
+    .banner-text,
+    .team .text{
         max-width: 100%;
     }
-     
+
+    
+
+
+    /* header related responsive */
     h1{
         font-size: 1.5rem;
     }
@@ -190,10 +197,17 @@ nav a {
 /* responsive for medium devices */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-/* header related responsive */
-    .banner-text{
+    .team{
+        flex-direction: column;
+    }
+
+
+    .banner-text,
+    .team .text{
         max-width: 100%;
     }
+
+   
 
     
 }
