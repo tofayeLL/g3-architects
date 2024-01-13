@@ -158,7 +158,7 @@ nav a {
 
 .features .text-section {
     max-width: 40%;
-   
+
 }
 
 .features .text-section * {
@@ -189,28 +189,64 @@ nav a {
     object-fit: cover;
 }
 
-.features .img-section .bedge{
+.features .img-section .bedge {
     max-width: 50%;
     width: 100%;
     padding: 2rem 1rem;
     text-align: center;
     border-radius: 8px;
-    background: #FF900E; 
-    position: relative; 
+    background: #FF900E;
+    position: relative;
     bottom: 10%;
     right: 15%;
 }
-.features .img-section .bedge h4{
+
+.features .img-section .bedge h4 {
     font-size: 3rem;
     color: #FFF;
     font-weight: 700;
 }
-.features .img-section .bedge p{
+
+.features .img-section .bedge p {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
 }
 
+
+
+/* Some Facts related styles */
+
+
+
+.facts-item-content {
+    display: flex;
+    justify-content: space-around;
+}
+.facts-text {
+    max-width: 40%;
+}
+
+.facts-text *{
+    margin-bottom: 1rem;
+}
+.facts-item-content {
+    margin-top: 4rem;
+}
+
+.facts-item-content .facts-item {
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+
+}
+.facts-item-content .facts-item h4{
+    color: #727272;
+}
+.facts-item-content .facts-item *{
+    margin-bottom: 5px;
+}
 
 
 
@@ -246,7 +282,7 @@ nav a {
     /* shared styles */
     nav,
     .team,
-    .features{
+    .features {
         flex-direction: column;
     }
 
@@ -256,7 +292,7 @@ nav a {
 
     .banner-text,
     .team .text,
-    .features .text-section  {
+    .features .text-section {
         max-width: 100%;
     }
 
@@ -271,19 +307,21 @@ nav a {
 
     /* feature related styles */
 
-    .features .text-section .text-item{
+    .features .text-section .text-item {
         padding: 0px;
     }
-    .features .img-section img{
+
+    .features .img-section img {
         width: 100%;
-       
+
     }
-    .features .img-section .bedge{
+
+    .features .img-section .bedge {
         max-width: 100%;
         padding: 1rem;
-        position: static;   
+        position: static;
     }
-    
+
 
 
 }
@@ -301,15 +339,16 @@ nav a {
 
     .banner-text,
     .team .text,
-    .features .text-section  {
+    .features .text-section {
         max-width: 100%;
     }
 
-    .features .img-section img{
+    .features .img-section img {
         width: 100%;
-       
+
     }
-    .features .img-section .bedge{
+
+    .features .img-section .bedge {
         bottom: 60px;
     }
 
