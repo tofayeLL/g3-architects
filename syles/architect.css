@@ -305,7 +305,8 @@ nav a {
     nav,
     .team,
     .features,
-    .facts-item-content {
+    .facts-item-content,
+    .sponsored-company{
         flex-direction: column;
         gap: 20px;
     }
@@ -317,7 +318,8 @@ nav a {
     .banner-text,
     .team .text,
     .features .text-section,
-    .facts-text {
+    .facts-text,
+    .sponsored-text {
         max-width: 100%;
     }
 
@@ -358,7 +360,8 @@ nav a {
 
     .team,
     .features,
-    .facts-item-content {
+    .facts-item-content,
+    .sponsored-company {
         flex-direction: column;
         gap: 20px;
     }
@@ -367,7 +370,8 @@ nav a {
     .banner-text,
     .team .text,
     .features .text-section,
-    .facts-text {
+    .facts-text,
+    .sponsored-text {
         max-width: 100%;
     }
 
