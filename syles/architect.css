@@ -317,6 +317,11 @@ nav a {
         padding: 10px;
     }
 
+    /* main */
+    main section{
+        margin-top: 50px;
+    }
+
     /* shared styles */
     nav,
     .team,
