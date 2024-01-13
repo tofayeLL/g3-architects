@@ -282,8 +282,10 @@ nav a {
     /* shared styles */
     nav,
     .team,
-    .features {
+    .features,
+    .facts-item-content {
         flex-direction: column;
+        gap: 20px;
     }
 
     .team .image-grid {
@@ -292,7 +294,8 @@ nav a {
 
     .banner-text,
     .team .text,
-    .features .text-section {
+    .features .text-section,
+    .facts-text {
         max-width: 100%;
     }
 
@@ -332,14 +335,17 @@ nav a {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     .team,
-    .features {
+    .features,
+    .facts-item-content {
         flex-direction: column;
+        gap: 20px;
     }
 
 
     .banner-text,
     .team .text,
-    .features .text-section {
+    .features .text-section,
+    .facts-text {
         max-width: 100%;
     }
 
