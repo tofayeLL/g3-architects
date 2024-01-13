@@ -29,14 +29,12 @@ h4 {
     color: #131313;
     font-size: 1rem;
     font-weight: 600;
-
 }
 
 p {
     color: #727272;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-
 }
 
 button {
@@ -247,6 +245,30 @@ nav a {
 .facts-item-content .facts-item *{
     margin-bottom: 5px;
 }
+
+
+
+/* sponsored related styles */
+
+.sponsored-text{
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ .sponsored-company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsored-text *{
+    margin-bottom: 2.5rem;
+}
+
+
+
+
 
 
 
